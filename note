@@ -1,0 +1,3 @@
+ pelican content -s publishconf.py //build out
+ pelican content // build local
+ python -m pelican.server
