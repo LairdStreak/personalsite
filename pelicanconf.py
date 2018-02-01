@@ -34,3 +34,8 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 THEME = "pelican-blueidea"
+
+STATIC_PATHS = ['images', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}

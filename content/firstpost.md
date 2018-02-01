@@ -1,5 +1,8 @@
 Title: My First Review
 Date: 2018-01-31 8:05
 Category: Post
+Tags: pelican, publishing
+Slug: my-super-post
+Summary: Short version for index and feeds
 
-Following is a review of my favorite mechanical keyboard.
+Blah
