@@ -25,8 +25,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('Twitter', 'https://twitter.com/lairdstreak'),
           ('Another social link', '#'),)
+
+TWITTER_USERNAME = 'lairdstreak'          
 
 DEFAULT_PAGINATION = 10
 
