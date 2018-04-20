@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://reaperconzblog.ddns.net'
+SITEURL = 'https://lairdstreak.github.io/'
 RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -22,4 +22,4 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
-THEME = "notmyidea"
+THEME = "themes/pelican-alchemy/alchemy"

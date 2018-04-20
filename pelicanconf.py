@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Laird Streak'
-SITENAME = "'My Personal Blog'"
+SITENAME = "'Laird Streak`s Personal Blog'"
 SITEURL = ''
 
 PATH = 'content'
@@ -21,8 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'))
+         ('Python.org', 'http://python.org/'))
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/lairdstreak'),
@@ -35,7 +34,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-THEME = "notmyidea"
+THEME = "themes/pelican-alchemy/alchemy"
 
 STATIC_PATHS = ['images', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
