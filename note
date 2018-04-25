@@ -1,3 +1,6 @@
  pelican content -s publishconf.py //build out
  pelican content // build local
  python -m pelican.server
+
+ http://docs.python-guide.org/en/latest/dev/virtualenvs/
+ 
