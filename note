@@ -4,3 +4,18 @@
 
  http://docs.python-guide.org/en/latest/dev/virtualenvs/
  
+ 
+ 
+ mkvirtualenv my_project
+ mkproject myproject
+ workon my_project
+ 
+ Other useful commands
+lsvirtualenv
+List all of the environments.
+cdvirtualenv
+Navigate into the directory of the currently activated virtual environment, so you can browse its site-packages, for example.
+cdsitepackages
+Like the above, but directly into site-packages directory.
+lssitepackages
+Shows contents of site-packages directory.
