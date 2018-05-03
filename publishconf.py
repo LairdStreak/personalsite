@@ -22,4 +22,20 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
-THEME = "themes/pelican-alchemy/alchemy"
+# Blogroll
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'))
+
+# Social widget
+SOCIAL = (('Twitter', 'https://twitter.com/lairdstreak'),
+          ('Another social link', '#'),)     
+
+DEFAULT_PAGINATION = 10
+# Uncomment following line if you want document-relative URLs when developing
+RELATIVE_URLS = True
+THEME = "themes/blueidea"
+
+STATIC_PATHS = ['images', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
