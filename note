@@ -19,3 +19,6 @@ cdsitepackages
 Like the above, but directly into site-packages directory.
 lssitepackages
 Shows contents of site-packages directory.
+
+
+https://docs.python.org/3/library/venv.html
