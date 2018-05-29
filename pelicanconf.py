@@ -25,7 +25,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/lairdstreak'),
-          ('Another social link', '#'),)
+          ('GitHub', 'https://github.com/LairdStreak'),)     
 
 TWITTER_USERNAME = 'lairdstreak'          
 
