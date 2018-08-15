@@ -34,8 +34,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-#THEME = "themes/pelican-alchemy/alchemy"
-THEME = "themes/blueidea"
+THEME = "themes/pelican-alchemy/alchemy"
 
 STATIC_PATHS = ['images', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
