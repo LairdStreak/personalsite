@@ -1,7 +1,7 @@
 Title: Learning List
-Date: 2018-05-11 1:29
-Modified: 2010-12-05 19:30
+Date: 2018-11-05 14:18
 Category: Notes
+Tags: Python
 
 
 # Learning List
