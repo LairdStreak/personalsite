@@ -4,6 +4,6 @@ Category: Post
 Tags: Python, Learning
 Summary: Just some ramblings.
 
-#So Much for Python being a simple thing to learn.
+# So Much for Python being a simple thing to learn.
 
  
