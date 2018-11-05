@@ -30,3 +30,18 @@ plt.plot(df1['Score'].values, df1['Col'].values)
 Or use DataFrame.plot:
 
 df.plot(x='Score',y='Col')
+
+
+E:\dev\personalsite>python -m venv myvenv
+
+E:\dev\personalsite>cd myvenv\Scripts
+
+E:\dev\personalsite\myvenv\Scripts>activate
+
+(myvenv) E:\dev\personalsite\myvenv\Scripts>cd..
+
+(myvenv) E:\dev\personalsite\myvenv>pip list
+Package    Version
+---------- -------
+pip        10.0.1
+setuptools 39.0.1
