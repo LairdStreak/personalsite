@@ -13,6 +13,8 @@ Tags: Python
 - [ ] ES 6
 - [ ] Functional JavaScript pluralsight.
 
+XXX
+
 
 ## Python Courses Collection
 
