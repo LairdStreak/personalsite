@@ -10,11 +10,12 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://lairdstreak.github.io'
-RELATIVE_URLS = True
+# If your site is available via HTTPS, make sure SITEURL begins with https://
+SITEURL = ''
+RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -22,20 +23,3 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'))
-
-# Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/lairdstreak'),
-          ('GitHub', 'https://github.com/LairdStreak'),)     
-
-DEFAULT_PAGINATION = 10
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
-THEME = "themes/pelican-alchemy/alchemy"
-
-STATIC_PATHS = ['images', 'extra/favicon.ico']
-EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'}
-}
