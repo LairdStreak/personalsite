@@ -4,6 +4,6 @@ Category: Ramblings
 Tags: Learning, MSSQL
 Summary: MSSQL Count Group By.
 
-SELECT COUNT(column), column
+```SELECT COUNT(column), column
 FROM Table
-GROUP BY column;
+GROUP BY column;```
