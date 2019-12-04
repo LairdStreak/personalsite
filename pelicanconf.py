@@ -12,7 +12,7 @@ TIMEZONE = 'Pacific/Auckland'
 
 DEFAULT_LANG = 'en'
 
-THEME='pelican-themes/blueidea'
+THEME='pelican-themes/pelican-dark-theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
