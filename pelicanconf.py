@@ -12,7 +12,7 @@ TIMEZONE = 'Pacific/Auckland'
 
 DEFAULT_LANG = 'en'
 
-THEME='pelican-themes/pelican-dark-theme'
+THEME='pelican-themes/blueidea'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -22,9 +22,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS = (('Pelican', 'http://getpelican.com/'),)
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/lairdstreak'),)
@@ -32,4 +30,4 @@ SOCIAL = (('Twitter', 'https://twitter.com/lairdstreak'),)
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
