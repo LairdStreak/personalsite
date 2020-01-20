@@ -44,6 +44,11 @@ def clean(c):
 def build(c):
     """Build local version of site"""
     c.run('pelican -s {settings_base}'.format(**CONFIG))
+    copytooutput(c)
+
+@task
+def copytooutput(c):
+    c.run('copytoghrepo.bat')
 
 @task
 def rebuild(c):

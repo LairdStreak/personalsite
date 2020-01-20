@@ -1,1 +1,1 @@
-XCOPY "F:\GHUB\personalsite\output" "D:\dev\LairdStreak.github.io" /Y /S
+XCOPY "E:\private_dev\personalsite\output" "E:\private_dev\LairdStreak.github.io" /Y /S
