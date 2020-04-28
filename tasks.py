@@ -122,7 +122,7 @@ def publish(c):
             **CONFIG))
 
 @task
-def gh_pages(c):
+def ghpage(c):
     """Publish to GitHub Pages"""
     preview(c)
     c.run('ghp-import -b {github_pages_branch} '
